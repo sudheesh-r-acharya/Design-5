@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 110%;
+    width: 100%;
+}
+.container{
+    background-color: black;
+    height: 130%;
+    width: 93%;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    height: 65%;
+    width: 100%;
+    padding: 1vmax 4vmax;
+}
+.menubar{
+    color: white;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1vmax;
+}
+.menubar > ul{
+    display: flex;
+    font-weight: 200;
+    font: 200 1vmax "Gilroy";
+}
+.menubar > ul > li{
+    list-style: none;
+    padding: 1vmax;
+}
+.menubar > span{
+    font-weight: 200;
+    font: 200 1vmax "Gilroy";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.menubar > span > i{
+    padding: 0.5vmax;
+    font-size: 2vmax;
+}
+
+/* ...................................FIRST CONTENT BAR STARST FROM HERE */
+
+.content1{
+    width: 100%;
+    height: 55%;
+    /* background-color: aqua; */
+    margin-top: 4vmax;
+    display: flex;
+}
+
+.leftc{
+    width: 55%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* padding-top: 3vmax; */
+    /* display: flex; */
+}
+.rightc{
+    width: 45%;
+    height: 100%;
+}
+.leftc > h1{
+    font: 400 4vmax "gilroy" ;
+    color: white;
+    line-height: 5vmax;
+    /* letter-spacing: 5px; */
+    padding-bottom: 3vmax;
+}
+.leftcpara{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vmax 0vmax;
+    font-weight:900;
+    font: 200 1vmax "Gilroy";
+    /* letter-spacing: 1px; */
+    letter-spacing: 4px;
+    /* padding-bottom: 20vmax; */
+}
+.leftc > h1 > img{
+    object-fit: cover;
+    height: 4vmax;
+    width: 4vmax;
+    border-radius: 50%;
+    object-position: center;
+    border: 2px solid white;
+    /* margin-top: 2vmax; */
+    /* background-color: aqua; */
+
+}
+
+.rightc{
+    background-color: rgb(179, 160, 207);
+    margin-left: 3vmax;
+    background-image: url(/photo-1492562080023-ab3db95bfbce-removebg-preview.png);
+    clip-path: polygon(84% 9%, 100% 9%, 100% 37%, 100% 98%, 0 100%, 0 0, 84% 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vmax;
+    position: relative;
+    /* color: white; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+}
+
+.rightc > .para{
+    font-weight: 700;
+    left: 2.5vmax;
+    top: 2vmax;
+    position: absolute;
+}
+
+.circles {
+    position: absolute;
+    right: 4%;
+    top: 5%;
+    z-index: 10000;
+}
+
+.circles span{
+    display: inline-block;
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 0.5vmax;
+}
+.search{
+    padding: 1vmax;
+    width: 35vmax;
+    margin: 2vmax;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 2vmax;
+    font: 900 1.2vmax "Gilroy";
+}
+.search > i{
+    background-color: white;
+    border-radius: 3vmax;
+    padding: .2vmax;
+}
+
+/*.............../............. SECOND CONTENT STARTS FROM HERE */
+
+.content2{
+    width: 100%;
+    height: 50vh;
+    /* background-color: rgb(121, 121, 121); */
+    margin-top: 7vmax;
+    display: flex;
+    /* flex-direction: column; */
+}
+.leftcont2{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.leftpara1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin: 0vmax 0vmax;
+    font-size: 200px;
+    /* background-color: blue; */
+    color: white;
+}
+.leftpara1 > i{
+    /* height: 3vmax; */
+    /* width: 5vmax; */
+    padding: 1vmax 1vmax 1vmax 0vmax;
+    font-size: 4vmax;
+    color: white;
+
+    /* background-color: white; */
+}
+.leftpara1 p {
+    /* margin-left: 3vmax; */
+    font: 400 1vmax "Gilroy";
+    font-size: 1.5vmax;
+}
+
+.leftpara2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    bottom: 5vmax;
+    /* background-color: #fdc959; */
+    width: 100%;
+}
+
+.leftpara2 > p {
+    margin-bottom: 0.5vmax;
+    padding: 0.8vmax 2vmax;
+    border-radius: 2vmax;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    /* background-color: aqua; */
+    /* bottom: 1vmax; */
+}
+.rightbox{
+    display: flex;
+    justify-content: space-between;
+    /* height: 100%; */
+    width: 100%;
+    /* flex-direction: column; */
+    /* background-color: aqua; */
+    padding: 0vmax 0vmax 2vmax 2vmax;
+}
+.box {
+    /* width: 100%; */
+    width: 33%;
+    /* justify-content: space-between; */
+    clip-path: polygon(55% 7%, 63% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+    padding: 4vmax 2vmax 2vmax 2vmax;
+}
+.box1 {
+    background-color: #fd5e09;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box2 {
+    background-color: #e0e0e0;
+   
+}
+.box3 {
+    background-color: #fdc959;
+}
+.box1 > i{
+    font-size: 4vmax;
+}
+.box > p{
+    font: 600 1vmax "Gilroy";
+}
+
+.circles2{
+    position: absolute;
+    right: 4%;
+    top: 5%;
+    z-index: 10000;
+}
+
+.circles2 > span{
+    display: inline-block;
+    width: 1vmax;
+    height: 1vmax;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 0.5vmax;
+}
+
